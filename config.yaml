@@ -1,0 +1,39 @@
+misc:
+  interval_seconds: 3
+seasonal_foods:
+- url: https://www.shijou-nippo.metro.tokyo.lg.jp/SN/202608/20260812/Sui/SN_Sui_Zen_index.html
+  conditions:
+  - table_name: 大物
+    ref:
+      品名: まぐろ（生鮮）
+    subject_header: 卸売数量計
+    csv_header: まぐろ生鮮（キロ）
+    alerts:
+      upper: null
+      lower: null
+  - table_name: 鮮魚
+    ref:
+      品名: ぶり・わらさ
+    subject_header: 卸売数量計
+    csv_header: ぶり・わらさ（キロ）
+    alerts:
+      upper: 138254
+      lower: null
+  - table_name: 鮮魚
+    ref:
+      品名: かつお
+    subject_header: 卸売数量計
+    csv_header: かつお（キロ）
+    alerts:
+      upper: 71370
+      lower: null
+- url: https://www.shijou-nippo.metro.tokyo.lg.jp/SN/202608/20260812/Sei/SN_Sei_Zen_index.html
+  conditions:
+  - table_name: 野菜
+    ref:
+      品名: ブロッコリー
+    subject_header: 卸売数量計
+    csv_header: ブロッコリー（キロ）
+    alerts:
+      upper: 300095
+      lower: 73351

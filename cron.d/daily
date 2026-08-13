@@ -1,0 +1,3 @@
+00 19 * * * sh -c 'cd /app && TS=$(date "+\%Y-\%m-\%d-\%H\%M") && /usr/local/bin/python3 /app/handler_daily.py 2>&1 | tee -a /app/record/daily.log > /proc/1/fd/1'
+05 19 * * 2,5 sh -c 'cd /app && TS=$(date "+\%Y-\%m-\%d-\%H\%M") && /usr/local/bin/python3 /app/shared/handler_alert.py 2>&1 | tee -a /app/record/daily.log > /proc/1/fd/1'
+05 19 * * 5 sh -c 'cd /app && TS=$(date "+\%Y-\%m-\%d-\%H\%M") && /usr/local/bin/python3 /app/shared/handler_trend.py 2>&1 | tee -a /app/record/daily.log > /proc/1/fd/1'
