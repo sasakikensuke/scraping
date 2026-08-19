@@ -106,7 +106,7 @@ class UrlHandler:
 
 
 def debug_on_colab(
-    url: str = "https://www.shijou-nippo.metro.tokyo.lg.jp/SN/202608/20260812/Sui/SN_Sui_Zen_index.html",
+    url: str = "https://www.shijou-nippo.metro.tokyo.lg.jp/SN/202608/20260818/Sui/SN_Sui_Zen_index.html",
 ):
     """
     Usage:

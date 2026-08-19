@@ -1,7 +1,7 @@
 misc:
   interval_seconds: 3
 seasonal_foods:
-- url: https://www.shijou-nippo.metro.tokyo.lg.jp/SN/202608/20260812/Sui/SN_Sui_Zen_index.html
+- url: https://www.shijou-nippo.metro.tokyo.lg.jp/SN/202608/20260818/Sui/SN_Sui_Zen_index.html
   conditions:
   - table_name: 大物
     ref:
@@ -27,7 +27,7 @@ seasonal_foods:
     alerts:
       upper: 71370
       lower: null
-- url: https://www.shijou-nippo.metro.tokyo.lg.jp/SN/202608/20260812/Sei/SN_Sei_Zen_index.html
+- url: https://www.shijou-nippo.metro.tokyo.lg.jp/SN/202608/20260818/Sei/SN_Sei_Zen_index.html
   conditions:
   - table_name: 野菜
     ref:
